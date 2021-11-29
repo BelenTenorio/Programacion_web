@@ -1,0 +1,544 @@
+a:link {
+	color: #8eabaf;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #8eabaf;
+}
+
+a:visited {
+	color: #8eabaf;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body 
+/*edicion de titulo e imagen colocada*/
+{
+	background: #ffffff url(images/back_all.jpg) repeat-x top;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: white;
+	margin-top: 10px;
+	background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+ 
+}
+
+#main
+{
+margin: 0 auto;
+width: 912px;
+background: url(images/table_back.jpg) repeat-y;
+}
+
+#logo
+{
+padding-left: 40px;
+text-align: center;
+padding-top: 40px;
+height: 40px;
+}
+
+#logo a {
+	text-decoration: none;
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+}
+#logo b {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+#buttons
+{
+padding-top: 140px;
+height: 40px;
+padding-left: 120px;
+}
+#buttons li {
+	display: inline;
+}
+#buttons a {
+	/*aqui edito las letras doradas y bajo el titulo y las casas*/
+	display: block;
+	float: left;
+	width: 120px;
+	height: 310px; /*bajo todo*/
+	margin-left: 1px;
+	text-align: center;
+	text-decoration: none;
+	color: gold;
+	font-weight: bold;
+	font-size: 16px;
+
+}
+
+/* edicion de letras subrayadas*/
+#buttons a:hover {
+	text-decoration: underline;
+	color: #gold;
+
+}
+
+#content
+{
+width: 870px;
+padding: 15px;
+}
+#left
+{
+width: 580px;
+padding: 10px;
+}
+
+#left H1
+{
+color: white;
+margin: 0;
+padding: 0;
+font-size: 24px;
+padding-top: 70px;
+
+}
+#left H2
+{
+color: white;
+margin: 0;
+padding: 0;
+font-size: 14px;
+padding-top: 20px;
+}
+#left a
+{
+ color: gold;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #gold;
+}
+
+#left a:visited {
+	color: #gold;
+}
+
+.small
+{
+margin: 15px;
+padding: 5px;
+border: 1px solid #99A067
+}
+/*ediciones para el calendario y casas*/
+#right
+{
+float: right;
+width: 254px;
+}
+
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+	background: #F1F1F1;
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #b1b1b1;
+	border: 1px solid #000000;
+	font-weight: bold;
+	color: #gold;
+}
+/*ediciones para el apartado de casas*/
+#sidebar 
+{
+width: 254px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(images/title_back.png) no-repeat;
+}
+#sidebar li 
+{
+	margin-bottom: 15px;
+	padding-top: 50px;
+
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+
+}
+#sidebar li h2 {
+	height: 34px;
+	margin: 50;
+	padding: 10px 0 0 10px;
+	background: #8eabaf url(images/title.png) no-repeat;
+	font-size: 18px;
+	color: #gold;
+	text-align:center;
+
+
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+/*imagenes colocadas de las casas en inicio*/
+#sidebar li y {
+	padding-left: 50px;
+	background: url(images/imgy.png) no-repeat 1px 5px;
+}
+#sidebar li r {
+	padding-left: 50px;
+	background: url(images/imgr.png) no-repeat 1px 5px;
+}
+#sidebar li g {
+	padding-left: 50px;
+	background: url(images/imgg.png) no-repeat 1px 5px;
+}
+#sidebar li h {
+	padding-left: 50px;
+	background: url(images/imgh.png) no-repeat 1px 5px;
+}
+/*edicion de la linea de abajo de la pagina de inicio*/
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 52px;
+	font-size: 10px;
+	color: #gold;
+	padding-top: 20px;
+	text-align: center;
+	border-top: #ffffff solid 5px;
+}
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+/*no recuerdo*/
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+
+/*edicion de la imagen del castillo*/
+.img{
+position: relative;
+width: 912px;
+height: 400px;
+}
+
+/*una edicion que no termine agregando pero me sirve de referencia para posicionar imagen
+.log{
+position: relative;
+width: 50px;
+height: 50px;
+}
+*/
+
+	
+/*ediciones para instrucciones, la imagen puesta detras y el titulo*/
+#dorado
+{
+padding-left: 40px;
+text-align: center;
+padding-top: 40px;
+height: 40px;
+
+}
+
+#dorado a {
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 560px;
+
+}
+#dorado b {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 70px;
+	left: 600px;
+}
+
+#dorado H2 a
+{
+font-size: 10px;
+}
+
+.dorado{
+  width: 200px; height: 200px;
+}
+
+#dorado
+{
+	background: url(images/dorado.jpg) repeat-X;
+	height: 52px;
+	font-size: 10px;
+	color: black;
+	padding-top: 70px;
+	text-align: center;
+}
+
+/*funciones para el movimiento de las fotos*/
+.slider {
+	width: 700px;
+	height: 1000px;
+	margin: auto;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.slider img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.6s;
+}
+
+.slider input[type="radio"]{
+	display: none;
+}
+
+.slider input[type="radio"]:checked ~ img {
+	opacity: 1;
+}
+
+.slider input[type="radio"] + label{
+	position: relative;
+	z-index: 50;
+	margin: 10px;
+
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: gold;
+	border-radius: 50%;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.slider input[type="radio"]:checked + label {
+	background: black;
+	border: 2px solid gold;
+}
+/*Aqui termina*/
+/*edicion para la linea amarilla en contacto*/
+#fondo
+{
+	background: url(images/imgh.png) repeat-X;
+	height: 52px;
+	font-size: 10px;
+	color: black;
+	padding-top: 70px;
+	text-align: center;
+}
+#fondo a {
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 40px;
+	left: 560px;
+
+}
+#fondo b {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 100px;
+	left: 600px;
+}
+/*ediciones para el formulario*/
+.contacto{
+	width: 300px;
+	background: url(images/dorado.jpg) no-repeat;
+	font-size: 18px;;
+	padding: 30px;
+	margin: initial;
+	margin-top: 0px;
+	border-radius: 4px;
+	font-family: cursive;
+	color: white;
+	z-index: 100;
+}
+
+.contacto h4{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.controls{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+}
+
+.contacto p{
+	height: 40px;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.contacto botons{
+	width: 100%;
+	background: white;
+	border: none;
+	padding: 12px;
+	margin: 16px 0;
+	font-size: 16px;
+}
+/*edicion de imagen de contacto*/
+.imagen{
+	margin: 400px;
+}
+/*no recuero que hace*/
+#historia
+{
+width: 580px;
+padding: 10px;
+}
+/*edicion de titulo principal*/
+#historia H1
+{
+color: white;
+margin: 0;
+padding: 0;
+font-size: 24px;
+padding-top: 70px;
+
+}
+/*edicion de letras de subtitulo*/
+#historia a
+{
+ color: gold;
+}
+
+#historia a:hover {
+	text-decoration: none;
+	color: #gold;
+}
+
+#historia a:visited {
+	color: #gold;
+}
+/*edicion de imagenes*/
+.escudo{
+	margin: 600px;
+}
+.tren{
+	margin: -150px;
+}
+.slytherin{
+	margin: 600px;	
+}
+.Gryffindor{
+	margin: 600px;	
+}
+.Ravenclaw{
+	margin: 600px;
+}
+.Hufflepuff{
+	margin: 600px;
+}
+.minerva{
+	margin: 600px;
+}
+.mover{
+	position: relative;
+	left: 300px;
+}
+/*edicion de colores de letras*/
+#historia h2{
+	color: gold;
+}
+#col h2{
+	color: white;
+}
+#s h2{
+	color: green;
+}
+#r h2{
+	color: blue;
+}
+#g h2{
+	color: darkred;
+}
